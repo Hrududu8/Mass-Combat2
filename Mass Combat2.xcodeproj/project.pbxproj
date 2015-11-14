@@ -1,0 +1,494 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		96A5CF2D1BF7D35500936E5A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96A5CF2C1BF7D35500936E5A /* AppDelegate.swift */; };
+		96A5CF2F1BF7D35500936E5A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96A5CF2E1BF7D35500936E5A /* Assets.xcassets */; };
+		96A5CF321BF7D35500936E5A /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 96A5CF301BF7D35500936E5A /* MainMenu.xib */; };
+		96A5CF3D1BF7D35500936E5A /* Mass_Combat2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96A5CF3C1BF7D35500936E5A /* Mass_Combat2Tests.swift */; };
+		96A5CF481BF7D35500936E5A /* Mass_Combat2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96A5CF471BF7D35500936E5A /* Mass_Combat2UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		96A5CF391BF7D35500936E5A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 96A5CF211BF7D35500936E5A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 96A5CF281BF7D35500936E5A;
+			remoteInfo = "Mass Combat2";
+		};
+		96A5CF441BF7D35500936E5A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 96A5CF211BF7D35500936E5A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 96A5CF281BF7D35500936E5A;
+			remoteInfo = "Mass Combat2";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		96A5CF291BF7D35500936E5A /* Mass Combat2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mass Combat2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		96A5CF2C1BF7D35500936E5A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		96A5CF2E1BF7D35500936E5A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		96A5CF311BF7D35500936E5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		96A5CF331BF7D35500936E5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96A5CF381BF7D35500936E5A /* Mass Combat2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mass Combat2Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		96A5CF3C1BF7D35500936E5A /* Mass_Combat2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mass_Combat2Tests.swift; sourceTree = "<group>"; };
+		96A5CF3E1BF7D35500936E5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96A5CF431BF7D35500936E5A /* Mass Combat2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mass Combat2UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		96A5CF471BF7D35500936E5A /* Mass_Combat2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mass_Combat2UITests.swift; sourceTree = "<group>"; };
+		96A5CF491BF7D35500936E5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		96A5CF261BF7D35500936E5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96A5CF351BF7D35500936E5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96A5CF401BF7D35500936E5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		96A5CF201BF7D35500936E5A = {
+			isa = PBXGroup;
+			children = (
+				96A5CF2B1BF7D35500936E5A /* Mass Combat2 */,
+				96A5CF3B1BF7D35500936E5A /* Mass Combat2Tests */,
+				96A5CF461BF7D35500936E5A /* Mass Combat2UITests */,
+				96A5CF2A1BF7D35500936E5A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		96A5CF2A1BF7D35500936E5A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				96A5CF291BF7D35500936E5A /* Mass Combat2.app */,
+				96A5CF381BF7D35500936E5A /* Mass Combat2Tests.xctest */,
+				96A5CF431BF7D35500936E5A /* Mass Combat2UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		96A5CF2B1BF7D35500936E5A /* Mass Combat2 */ = {
+			isa = PBXGroup;
+			children = (
+				96A5CF2C1BF7D35500936E5A /* AppDelegate.swift */,
+				96A5CF2E1BF7D35500936E5A /* Assets.xcassets */,
+				96A5CF301BF7D35500936E5A /* MainMenu.xib */,
+				96A5CF331BF7D35500936E5A /* Info.plist */,
+			);
+			path = "Mass Combat2";
+			sourceTree = "<group>";
+		};
+		96A5CF3B1BF7D35500936E5A /* Mass Combat2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				96A5CF3C1BF7D35500936E5A /* Mass_Combat2Tests.swift */,
+				96A5CF3E1BF7D35500936E5A /* Info.plist */,
+			);
+			path = "Mass Combat2Tests";
+			sourceTree = "<group>";
+		};
+		96A5CF461BF7D35500936E5A /* Mass Combat2UITests */ = {
+			isa = PBXGroup;
+			children = (
+				96A5CF471BF7D35500936E5A /* Mass_Combat2UITests.swift */,
+				96A5CF491BF7D35500936E5A /* Info.plist */,
+			);
+			path = "Mass Combat2UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		96A5CF281BF7D35500936E5A /* Mass Combat2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96A5CF4C1BF7D35500936E5A /* Build configuration list for PBXNativeTarget "Mass Combat2" */;
+			buildPhases = (
+				96A5CF251BF7D35500936E5A /* Sources */,
+				96A5CF261BF7D35500936E5A /* Frameworks */,
+				96A5CF271BF7D35500936E5A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Mass Combat2";
+			productName = "Mass Combat2";
+			productReference = 96A5CF291BF7D35500936E5A /* Mass Combat2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		96A5CF371BF7D35500936E5A /* Mass Combat2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96A5CF4F1BF7D35500936E5A /* Build configuration list for PBXNativeTarget "Mass Combat2Tests" */;
+			buildPhases = (
+				96A5CF341BF7D35500936E5A /* Sources */,
+				96A5CF351BF7D35500936E5A /* Frameworks */,
+				96A5CF361BF7D35500936E5A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				96A5CF3A1BF7D35500936E5A /* PBXTargetDependency */,
+			);
+			name = "Mass Combat2Tests";
+			productName = "Mass Combat2Tests";
+			productReference = 96A5CF381BF7D35500936E5A /* Mass Combat2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		96A5CF421BF7D35500936E5A /* Mass Combat2UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96A5CF521BF7D35500936E5A /* Build configuration list for PBXNativeTarget "Mass Combat2UITests" */;
+			buildPhases = (
+				96A5CF3F1BF7D35500936E5A /* Sources */,
+				96A5CF401BF7D35500936E5A /* Frameworks */,
+				96A5CF411BF7D35500936E5A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				96A5CF451BF7D35500936E5A /* PBXTargetDependency */,
+			);
+			name = "Mass Combat2UITests";
+			productName = "Mass Combat2UITests";
+			productReference = 96A5CF431BF7D35500936E5A /* Mass Combat2UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		96A5CF211BF7D35500936E5A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = Rukesh;
+				TargetAttributes = {
+					96A5CF281BF7D35500936E5A = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					96A5CF371BF7D35500936E5A = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 96A5CF281BF7D35500936E5A;
+					};
+					96A5CF421BF7D35500936E5A = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 96A5CF281BF7D35500936E5A;
+					};
+				};
+			};
+			buildConfigurationList = 96A5CF241BF7D35500936E5A /* Build configuration list for PBXProject "Mass Combat2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 96A5CF201BF7D35500936E5A;
+			productRefGroup = 96A5CF2A1BF7D35500936E5A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				96A5CF281BF7D35500936E5A /* Mass Combat2 */,
+				96A5CF371BF7D35500936E5A /* Mass Combat2Tests */,
+				96A5CF421BF7D35500936E5A /* Mass Combat2UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		96A5CF271BF7D35500936E5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96A5CF2F1BF7D35500936E5A /* Assets.xcassets in Resources */,
+				96A5CF321BF7D35500936E5A /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96A5CF361BF7D35500936E5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96A5CF411BF7D35500936E5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		96A5CF251BF7D35500936E5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96A5CF2D1BF7D35500936E5A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96A5CF341BF7D35500936E5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96A5CF3D1BF7D35500936E5A /* Mass_Combat2Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96A5CF3F1BF7D35500936E5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96A5CF481BF7D35500936E5A /* Mass_Combat2UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		96A5CF3A1BF7D35500936E5A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 96A5CF281BF7D35500936E5A /* Mass Combat2 */;
+			targetProxy = 96A5CF391BF7D35500936E5A /* PBXContainerItemProxy */;
+		};
+		96A5CF451BF7D35500936E5A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 96A5CF281BF7D35500936E5A /* Mass Combat2 */;
+			targetProxy = 96A5CF441BF7D35500936E5A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		96A5CF301BF7D35500936E5A /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				96A5CF311BF7D35500936E5A /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		96A5CF4A1BF7D35500936E5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		96A5CF4B1BF7D35500936E5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		96A5CF4D1BF7D35500936E5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Mass Combat2/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cc.korde.Mass-Combat2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		96A5CF4E1BF7D35500936E5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Mass Combat2/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cc.korde.Mass-Combat2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		96A5CF501BF7D35500936E5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Mass Combat2Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cc.korde.Mass-Combat2Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mass Combat2.app/Contents/MacOS/Mass Combat2";
+			};
+			name = Debug;
+		};
+		96A5CF511BF7D35500936E5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Mass Combat2Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cc.korde.Mass-Combat2Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mass Combat2.app/Contents/MacOS/Mass Combat2";
+			};
+			name = Release;
+		};
+		96A5CF531BF7D35500936E5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Mass Combat2UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cc.korde.Mass-Combat2UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Mass Combat2";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		96A5CF541BF7D35500936E5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Mass Combat2UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cc.korde.Mass-Combat2UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Mass Combat2";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		96A5CF241BF7D35500936E5A /* Build configuration list for PBXProject "Mass Combat2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96A5CF4A1BF7D35500936E5A /* Debug */,
+				96A5CF4B1BF7D35500936E5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		96A5CF4C1BF7D35500936E5A /* Build configuration list for PBXNativeTarget "Mass Combat2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96A5CF4D1BF7D35500936E5A /* Debug */,
+				96A5CF4E1BF7D35500936E5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		96A5CF4F1BF7D35500936E5A /* Build configuration list for PBXNativeTarget "Mass Combat2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96A5CF501BF7D35500936E5A /* Debug */,
+				96A5CF511BF7D35500936E5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		96A5CF521BF7D35500936E5A /* Build configuration list for PBXNativeTarget "Mass Combat2UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96A5CF531BF7D35500936E5A /* Debug */,
+				96A5CF541BF7D35500936E5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 96A5CF211BF7D35500936E5A /* Project object */;
+}
