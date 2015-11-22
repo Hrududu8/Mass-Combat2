@@ -12,6 +12,14 @@
 		96A5CF321BF7D35500936E5A /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 96A5CF301BF7D35500936E5A /* MainMenu.xib */; };
 		96A5CF3D1BF7D35500936E5A /* Mass_Combat2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96A5CF3C1BF7D35500936E5A /* Mass_Combat2Tests.swift */; };
 		96A5CF481BF7D35500936E5A /* Mass_Combat2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96A5CF471BF7D35500936E5A /* Mass_Combat2UITests.swift */; };
+		96A5CF571BF7D40600936E5A /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96A5CF551BF7D40600936E5A /* MasterViewController.swift */; };
+		96A5CF581BF7D40600936E5A /* MasterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 96A5CF561BF7D40600936E5A /* MasterViewController.xib */; };
+		96A5CF5B1BF7D54100936E5A /* ArmyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96A5CF591BF7D54100936E5A /* ArmyModel.swift */; };
+		96A5CF5C1BF7D54100936E5A /* ArmyUnitModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96A5CF5A1BF7D54100936E5A /* ArmyUnitModel.swift */; };
+		96A5CF5F1BF7D55E00936E5A /* BattleModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96A5CF5D1BF7D55E00936E5A /* BattleModel.swift */; };
+		96A5CF601BF7D55E00936E5A /* HeroModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96A5CF5E1BF7D55E00936E5A /* HeroModel.swift */; };
+		96D648841BF9513E00758B2E /* MVCExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96D648821BF9513E00758B2E /* MVCExtensions.swift */; };
+		96D648851BF9513E00758B2E /* MVCExtensions.xib in Resources */ = {isa = PBXBuildFile; fileRef = 96D648831BF9513E00758B2E /* MVCExtensions.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +51,14 @@
 		96A5CF431BF7D35500936E5A /* Mass Combat2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mass Combat2UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		96A5CF471BF7D35500936E5A /* Mass_Combat2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mass_Combat2UITests.swift; sourceTree = "<group>"; };
 		96A5CF491BF7D35500936E5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96A5CF551BF7D40600936E5A /* MasterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		96A5CF561BF7D40600936E5A /* MasterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MasterViewController.xib; sourceTree = "<group>"; };
+		96A5CF591BF7D54100936E5A /* ArmyModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ArmyModel.swift; path = ../ArmyModel.swift; sourceTree = "<group>"; };
+		96A5CF5A1BF7D54100936E5A /* ArmyUnitModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ArmyUnitModel.swift; path = ../ArmyUnitModel.swift; sourceTree = "<group>"; };
+		96A5CF5D1BF7D55E00936E5A /* BattleModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BattleModel.swift; path = ../BattleModel.swift; sourceTree = "<group>"; };
+		96A5CF5E1BF7D55E00936E5A /* HeroModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HeroModel.swift; path = ../HeroModel.swift; sourceTree = "<group>"; };
+		96D648821BF9513E00758B2E /* MVCExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MVCExtensions.swift; sourceTree = "<group>"; };
+		96D648831BF9513E00758B2E /* MVCExtensions.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MVCExtensions.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,9 +109,14 @@
 		96A5CF2B1BF7D35500936E5A /* Mass Combat2 */ = {
 			isa = PBXGroup;
 			children = (
+				96A5CF611BF7D56900936E5A /* Model */,
 				96A5CF2C1BF7D35500936E5A /* AppDelegate.swift */,
 				96A5CF2E1BF7D35500936E5A /* Assets.xcassets */,
 				96A5CF301BF7D35500936E5A /* MainMenu.xib */,
+				96A5CF551BF7D40600936E5A /* MasterViewController.swift */,
+				96D648821BF9513E00758B2E /* MVCExtensions.swift */,
+				96D648831BF9513E00758B2E /* MVCExtensions.xib */,
+				96A5CF561BF7D40600936E5A /* MasterViewController.xib */,
 				96A5CF331BF7D35500936E5A /* Info.plist */,
 			);
 			path = "Mass Combat2";
@@ -117,6 +138,17 @@
 				96A5CF491BF7D35500936E5A /* Info.plist */,
 			);
 			path = "Mass Combat2UITests";
+			sourceTree = "<group>";
+		};
+		96A5CF611BF7D56900936E5A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				96A5CF5D1BF7D55E00936E5A /* BattleModel.swift */,
+				96A5CF5A1BF7D54100936E5A /* ArmyUnitModel.swift */,
+				96A5CF591BF7D54100936E5A /* ArmyModel.swift */,
+				96A5CF5E1BF7D55E00936E5A /* HeroModel.swift */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -223,8 +255,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				96D648851BF9513E00758B2E /* MVCExtensions.xib in Resources */,
 				96A5CF2F1BF7D35500936E5A /* Assets.xcassets in Resources */,
 				96A5CF321BF7D35500936E5A /* MainMenu.xib in Resources */,
+				96A5CF581BF7D40600936E5A /* MasterViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,7 +283,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				96A5CF5C1BF7D54100936E5A /* ArmyUnitModel.swift in Sources */,
+				96D648841BF9513E00758B2E /* MVCExtensions.swift in Sources */,
+				96A5CF571BF7D40600936E5A /* MasterViewController.swift in Sources */,
+				96A5CF5F1BF7D55E00936E5A /* BattleModel.swift in Sources */,
 				96A5CF2D1BF7D35500936E5A /* AppDelegate.swift in Sources */,
+				96A5CF5B1BF7D54100936E5A /* ArmyModel.swift in Sources */,
+				96A5CF601BF7D55E00936E5A /* HeroModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -429,6 +469,7 @@
 		96A5CF531BF7D35500936E5A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				"CODE_SIGN_ENTITLEMENTS[sdk=*]" = "";
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = "Mass Combat2UITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
@@ -471,6 +512,7 @@
 				96A5CF4E1BF7D35500936E5A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		96A5CF4F1BF7D35500936E5A /* Build configuration list for PBXNativeTarget "Mass Combat2Tests" */ = {
 			isa = XCConfigurationList;
@@ -479,6 +521,7 @@
 				96A5CF511BF7D35500936E5A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		96A5CF521BF7D35500936E5A /* Build configuration list for PBXNativeTarget "Mass Combat2UITests" */ = {
 			isa = XCConfigurationList;
@@ -487,6 +530,7 @@
 				96A5CF541BF7D35500936E5A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
