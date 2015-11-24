@@ -70,6 +70,7 @@ enum UnitEquipmentQuality {
             return 4
         }
     }
+    
 }
 
 //MARK: -ArmyUnitErrorTypes

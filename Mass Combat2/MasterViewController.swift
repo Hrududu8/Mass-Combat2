@@ -184,6 +184,14 @@ extension MasterViewController {
             
         }
     }
+    @IBAction func unitEquipmtnTypeDidEndEdit(sender: AnyObject) {
+        if let theSelectedUnit = selectedUnit() {
+            //TO DO: fix me
+            //theSelectedUnit.equipmentQuality = self.unitEquipmentQualityView.titleOfSelectedItem!
+            
+        }
+    }
+    
     
     @IBAction func addUnitButton(sender: AnyObject) {
         let newUnit = ArmyUnit(type: "heavy infantry")
@@ -194,6 +202,7 @@ extension MasterViewController {
         self.unitsTableView.scrollRowToVisible(newRowIndex)
         
     }
+    
     
     @IBAction func deleteUnitButton(sender: AnyObject) {
         if let _ = selectedUnit() {
